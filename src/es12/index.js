@@ -29,14 +29,26 @@ class anyClass {
     }
 }
 // new operators
-let isTrue = true;
-let isFalse = false;
-console.log(isTrue &&= isFalse);
+let a = 2;
+let b = 3;
+console.log(a &&= b);
+// &&= is equal to write:
+//if(a){
+//    a = b;
+//}
 
-let isTrue1 = true;
-let isFalse1 = false;
-console.log(isTrue1 ||= isFalse1);
+let a1 = 5;
+let b1 = 0;
+console.log(a1 ||= b1);
+// ||= is equal to write:
+//if(!a){
+//    a = b;
+//}
 
-let isTrue2 = undefined;
-let isFalse2 = false;
-console.log(isTrue2 ??= isFalse2);
+let a2 = 3;
+let b2 = null;
+console.log(a2 ??= b2);
+// ??= is equal to write:
+//if(a = null || a = undefined){
+//    a = b;
+//}
