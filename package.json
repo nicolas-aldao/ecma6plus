@@ -1,0 +1,12 @@
+{
+  "name": "ecmascript",
+  "version": "1.0.0",
+  "description": "Learning more about ecmascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolás Aldao",
+  "license": "MIT",
+  "type": "module"
+}
